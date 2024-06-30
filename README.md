@@ -39,8 +39,8 @@ To run the JUnit tests:
 java -cp bin:lib/junit-platform-console-standalone.jar org.junit.runner.JUnitCore pacman.Index2DTest
 
 
-###How to Play
-##Manual Game
+### How to Play
+## Manual Game
 ##To play the manual version of the Pac-Man game:
  ```bash
 java -jar libs/Ex3_Manual_Game_v0.1.jar
