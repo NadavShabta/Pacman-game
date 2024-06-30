@@ -37,7 +37,7 @@ This project implements a Pac-Man game focusing on backend algorithms for Pac-Ma
 To run the JUnit tests:
 ```bash
 java -cp bin:lib/junit-platform-console-standalone.jar org.junit.runner.JUnitCore pacman.Index2DTest
-
+```
 
 ### How to Play
 ## Manual Game
@@ -45,3 +45,48 @@ java -cp bin:lib/junit-platform-console-standalone.jar org.junit.runner.JUnitCor
  ```bash
 java -jar libs/Ex3_Manual_Game_v0.1.jar
 ```
+Key Instructions:
+
+' ' - Start
+'0,1,2,3,4' - Level
+'w,a,x,d' - Move up, left, down, right
+'c' - Toggle cyclic mode
+'r' - Change resolution
+
+### Automated Algorithm
+The Pac-Man game includes an automated algorithm to control Pac-Man's movements. The backend, algorithms, and logic for this automation were developed as part of this project.
+
+
+
+### Code Structure
+.
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   ├── pacman
+│   │   │   │   ├── Index2D.java            # Implementation of Index2D class
+│   │   │   │   ├── Pixel2D.java            # Interface for Pixel2D
+│   │   │   │   ├── Map2D.java              # Interface for Map2D
+│   │   │   │   ├── Map.java                # Implementation of Map class
+│   │   │   │   ├── PacmanAlgo.java         # Algorithm for Pacman movement
+│   │   │   │   ├── GameInfo.java           # Game information including player ID
+│   │   │   │   ├── Ex3Algo.java            # Documentation for your algorithm
+│   │   │   │   └── ...
+│   └── test
+│       ├── java
+│       │   ├── pacman
+│       │   │   ├── Index2DTest.java        # JUnit tests for Index2D
+│       │   │   ├── MapTest.java            # JUnit tests for Map
+│       │   │   └── ...
+├── docs
+│   ├── design_patterns.md                  # Documentation on design patterns used
+│   └── ...
+├── libs                                    # Libraries (if any)
+│   ├── Ex3_Manual_Game_v0.1.jar            # Manual game JAR file
+│   └── ...
+├── README.md                               # Project README
+├── .gitignore                              # Git ignore file
+└── Ex3_Results.xlsx                        # Results sheet (if applicable)
+
+
+
